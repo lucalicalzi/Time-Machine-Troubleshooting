@@ -1,0 +1,32 @@
+How to unglitch a Time Machine Disk - fastest way
+
+This guidance is written for a time machine used via cable. I don't know if it worked with a network one
+
+If your time machine failed and now you can't start a new one or you are having problem getting your disk read 
+[but you see it in the disk utility] and even after erasing it time machine fails, follow this guidance:
+
+1. Cancel the folder Backups.backupdb
+
+2. Restart the computer (so that you can delete trash and time machine is forced ejected)
+
+	Restarting the computer is barely oriented to this two targets
+
+3. Connect time machine once again and check status on disk utility 
+
+4. Open terminal and delete local snapshots
+
+	tmutil listlocalsnapshots/
+
+	tmutil deletelocalsnapshots 
+
+5. Start the backup as usual 
+
+
+
+Useful bonus commands:
+
+P.s: Force ejection of a time machine 
+
+sudo diskutil unmountDisk force /dev/disk4
+
+sudo diskutil eject /dev/disk4
