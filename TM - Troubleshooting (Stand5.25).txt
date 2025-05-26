@@ -19,6 +19,8 @@ If your time machine failed and now you can't start a new one or you are having 
 
 	tmutil deletelocalsnapshots 
 
+	#add [date] if you want to delete just one
+
 5. Start the backup as usual 
 
 
