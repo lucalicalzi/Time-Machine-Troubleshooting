@@ -2,7 +2,7 @@ How to unglitch a Time Machine Disk - fastest way
 
 This guidance is written for a time machine used via cable. I don't know if it worked with a network one
 
-If your time machine failed and now you can't start a new one or you are having problem getting your disk read 
+If your time machine failed and now you couldn't start a new one or you are having problem getting your disk read 
 [but you see it in the disk utility] and even after erasing it time machine fails, follow this guidance:
 
 1. Cancel the folder Backups.backupdb
